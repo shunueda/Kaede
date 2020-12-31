@@ -16,6 +16,7 @@
 ### Code
 ```kotlin
 import me.kotlia.Kanade
+
 fun main() {
     println(
         Kanade
