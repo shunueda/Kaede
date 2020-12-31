@@ -1,17 +1,11 @@
 package me.kotlia
 
-import java.io.File
-import java.io.FileReader
 import java.net.URI
 import java.net.URLEncoder
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
 import java.nio.charset.StandardCharsets
-import java.io.FileWriter
-
-
-
 
 object Kanji {
     fun encodeURIComponent(str: String): String {

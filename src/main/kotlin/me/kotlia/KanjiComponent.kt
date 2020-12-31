@@ -1,16 +1,6 @@
 package me.kotlia
 
-import java.net.URI
-import java.net.URLEncoder
-import java.net.http.HttpClient
-import java.net.http.HttpRequest
-import java.net.http.HttpResponse
-import java.nio.charset.StandardCharsets
-import com.google.gson.JsonParser
-
-import com.google.gson.JsonObject
 import java.lang.Exception
-import javax.script.ScriptEngineManager
 
 
 class KanjiComponent (private var component: String = "") {
